@@ -1,6 +1,5 @@
-x---
-title: "Tools"
+---
+title: "Courses"
 draft: false
 description : "this is meta description"
-layout: tools
 ---

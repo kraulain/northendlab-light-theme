@@ -13,12 +13,12 @@ sections:
   - post
 - type: directory
   path: exampleSite/data
-  label: Tools
+  label: Courses
   create: documents
   match: "**/*"
   new_doc_ext: yml
   templates:
-  - tools
+  - courses
 - type: directory
   path: exampleSite/content/author
   label: Author

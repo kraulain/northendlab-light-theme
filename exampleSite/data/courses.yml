@@ -1,0 +1,82 @@
+courses:
+# course category
+- title: Dev Courses
+  course:
+  # course loop in course category
+  - name: Git
+    image: "/images/courses/Git.png"
+    link: https://git-scm.com/
+  # course loop in course category
+  - name: Atom
+    image: "/images/courses/Atom.png"
+    link: https://atom.io/
+  # course loop in course category
+  - name: Notepad ++
+    image: "/images/courses/Notepad.png"
+    link: https://notepad-plus-plus.org/
+  # course loop in course category
+  - name: Sublime Text
+    image: "/images/courses/sublime.png"
+    link: https://www.sublimetext.com/
+  # course loop in course category
+  - name: Visual Studio Code
+    image: "/images/courses/vs-code.png"
+    link: https://code.visualstudio.com/
+
+
+# course category
+- title: Design Courses
+  course:
+  # course loop in course category
+  - name: Sketch
+    image: "/images/courses/sketch.png"
+    link: https://www.sketch.com/
+  # course loop in course category
+  - name: Adobe Illustrator
+    image: "/images/courses/illustrator.png"
+    link: https://www.adobe.com/products/illustrator.html
+  # course loop in course category
+  - name: Invision
+    image: "/images/courses/invision.png"
+    link: https://www.invisionapp.com/studio
+  # course loop in course category
+  - name: Adobe XD
+    image: "/images/courses/xd.png"
+    link: https://www.adobe.com/products/xd.html
+  # course loop in course category
+  - name: Figma
+    image: "/images/courses/figma.png"
+    link: https://www.figma.com/
+
+
+# course category
+- title: Digital Marketing Courses
+  course:
+  # course loop in course category
+  - name: Mailchimp
+    image: "/images/courses/MailChimp.jpg"
+    link: https://mailchimp.com/
+  # course loop in course category
+  - name: Buffer
+    image: "/images/courses/Buffer.jpg"
+    link: https://buffer.com/
+  # course loop in course category
+  - name: Bitly Link
+    image: "/images/courses/Bitly.jpg"
+    link: https://bitly.com/
+  # course loop in course category
+  - name: Hotjar
+    image: "/images/courses/Hotjar.jpg"
+    link: https://www.hotjar.com/
+  # course loop in course category
+  - name: Ahrefs
+    image: "/images/courses/Ahrefs.jpg"
+    link: https://ahrefs.com/
+  # course loop in course category
+  - name: Google Trends
+    image: "/images/courses/GoogleTrends.jpg"
+    link: https://trends.google.com/trends/
+  # course loop in course category
+  - name: Google Analytics
+    image: "/images/courses/Google-Analytics.jpg"
+    link: https://analytics.google.com/analytics/web

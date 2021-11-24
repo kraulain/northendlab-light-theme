@@ -1,17 +1,17 @@
 ---
-label: Tools
+label: Courses
 hide_body: true
 fields:
 - type: field_group_list
-  name: tools
-  label: tools
+  name: courses
+  label: courses
   fields:
   - type: text
     name: title
     label: title
   - type: field_group_list
-    name: tool
-    label: tool
+    name: course
+    label: course
     fields:
     - type: text
       name: name
@@ -23,4 +23,4 @@ fields:
       name: link
       label: link
 pages:
-- data/tools.yml
+- data/courses.yml

@@ -5,17 +5,17 @@
     <div class="row">
       <div class="col-3">
         <div class="nav nav-tab flex-column" role="tablist" aria-orientation="vertical">
-          {{ range $index, $elemen:= .Site.Data.tools.tools }}
+          {{ range $index, $elemen:= .Site.Data.courses.courses }}
           <a class="nav-link {{ if eq $index 0}} active {{ end }}" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
           {{ end }}
         </div>
       </div>
       <div class="col-9">
         <div class="tab-content">
-          {{ range $index, $elemen:= .Site.Data.tools.tools }}
+          {{ range $index, $elemen:= .Site.Data.courses.courses }}
           <div class="tab-pane fade {{ if eq $index 0}} show active {{ end }}" id="{{.title | urlize}}" role="tabpanel">
             <div class="row">
-              {{ range .tool}}
+              {{ range .course}}
               <div class="col-md-6 mb-4">
                 <div class="card border-0 shadow">
                   <img src="{{ .image | relURL }}" alt="{{ .name | markdownify }}" class="card-img-top">
